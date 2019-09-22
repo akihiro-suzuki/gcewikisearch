@@ -1,0 +1,17 @@
+{
+  "name": "WikiSearch",
+  "description" : "Wikiで用語を調べます",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "*://ja.wikipedia.org/w/"
+  ],
+  "icons": {
+    "16" : "icons/hello_extensions.png"
+  },
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
